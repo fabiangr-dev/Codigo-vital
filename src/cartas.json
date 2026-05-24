@@ -1,0 +1,1286 @@
+{
+  "cartasAzules": [
+    {
+      "id": 1,
+      "numero": 1,
+      "tipo": "azul",
+      "categoria": "Riesgo Leve",
+      "situacion": "Durante la administración de medicamentos, un paciente indica que el nombre mencionado no coincide con el suyo.",
+      "pregunta": "¿Qué debe hacerse primero?",
+      "opciones": {
+        "A": "Administrar el medicamento y reportar después.",
+        "B": "Verificar identidad y detener el procedimiento.",
+        "C": "Consultar rápidamente el historial sin detener el procedimiento."
+      },
+      "respuestaCorrecta": "B",
+      "consecuenciaCorrecta": "Avanza 1 casilla extra.",
+      "consecuenciaIncorrecta": "Retrocede 1 casilla."
+    },
+    {
+      "id": 2,
+      "numero": 2,
+      "tipo": "azul",
+      "categoria": "Riesgo Leve",
+      "situacion": "Un profesional olvida registrar un procedimiento realizado.",
+      "pregunta": "¿Cuál es el principal riesgo?",
+      "opciones": {
+        "A": "Pérdida de trazabilidad clínica.",
+        "B": "Incremento en tiempos de limpieza.",
+        "C": "Desorganización de turnos médicos."
+      },
+      "respuestaCorrecta": "A",
+      "consecuenciaCorrecta": "Obtienes protección leve.",
+      "consecuenciaIncorrecta": "Pierdes tu siguiente bonificación."
+    },
+    {
+      "id": 3,
+      "numero": 3,
+      "tipo": "azul",
+      "categoria": "Riesgo Leve",
+      "situacion": "Antes de ingresar a aislamiento, no hay guantes disponibles.",
+      "pregunta": "¿Qué acción es correcta?",
+      "opciones": {
+        "A": "Ingresar rápidamente minimizando contacto.",
+        "B": "Conseguir EPP antes de entrar.",
+        "C": "Delegar el ingreso a un acompañante."
+      },
+      "respuestaCorrecta": "B",
+      "consecuenciaCorrecta": "Otro jugador retrocede 1 casilla.",
+      "consecuenciaIncorrecta": "Retrocedes 1 casilla."
+    },
+    {
+      "id": 4,
+      "numero": 4,
+      "tipo": "azul",
+      "categoria": "Riesgo Leve",
+      "situacion": "Una muestra sanguínea fue rotulada fuera de la habitación.",
+      "pregunta": "¿Qué riesgo existe?",
+      "opciones": {
+        "A": "Identificación incorrecta.",
+        "B": "Saturación del laboratorio.",
+        "C": "Retraso en impresión."
+      },
+      "respuestaCorrecta": "A",
+      "consecuenciaCorrecta": "Avanzas 2 casillas.",
+      "consecuenciaIncorrecta": "Pierdes una ventaja."
+    },
+    {
+      "id": 5,
+      "numero": 5,
+      "tipo": "azul",
+      "categoria": "Riesgo Leve",
+      "situacion": "Un paciente sedado intenta caminar sin ayuda.",
+      "pregunta": "¿Qué medida es prioritaria?",
+      "opciones": {
+        "A": "Activar protocolo de prevención de caídas.",
+        "B": "Informar solo al familiar.",
+        "C": "Pedirle que espere sentado."
+      },
+      "respuestaCorrecta": "A",
+      "consecuenciaCorrecta": "Obtienes inmunidad leve.",
+      "consecuenciaIncorrecta": "Retrocedes 1 casilla."
+    },
+    {
+      "id": 6,
+      "numero": 6,
+      "tipo": "azul",
+      "categoria": "Riesgo Leve",
+      "situacion": "Un medicamento aparece sin rotulación.",
+      "pregunta": "¿Qué debe hacerse?",
+      "opciones": {
+        "A": "Administrarlo según apariencia.",
+        "B": "Desecharlo según protocolo.",
+        "C": "Guardarlo para revisión posterior."
+      },
+      "respuestaCorrecta": "B",
+      "consecuenciaCorrecta": "Avanza 1 casilla.",
+      "consecuenciaIncorrecta": "Retrocedes 2 casillas."
+    },
+    {
+      "id": 7,
+      "numero": 7,
+      "tipo": "azul",
+      "categoria": "Riesgo Leve",
+      "situacion": "Un paciente refiere aumento progresivo del dolor.",
+      "pregunta": "¿Qué debe hacerse primero?",
+      "opciones": {
+        "A": "Reevaluación clínica inmediata.",
+        "B": "Esperar ronda médica.",
+        "C": "Incrementar dosis sin valoración."
+      },
+      "respuestaCorrecta": "A",
+      "consecuenciaCorrecta": "Puedes ignorar una penalización azul.",
+      "consecuenciaIncorrecta": "Pierdes tu próxima recompensa."
+    },
+    {
+      "id": 8,
+      "numero": 8,
+      "tipo": "azul",
+      "categoria": "Riesgo Leve",
+      "situacion": "Una alarma de monitor presenta fallas repetidas.",
+      "pregunta": "¿Qué acción es correcta?",
+      "opciones": {
+        "A": "Silenciar la alarma.",
+        "B": "Reportar y retirar el equipo.",
+        "C": "Continuar utilizándolo normalmente."
+      },
+      "respuestaCorrecta": "B",
+      "consecuenciaCorrecta": "Otro jugador pierde protección.",
+      "consecuenciaIncorrecta": "Retrocedes 1 casilla."
+    },
+    {
+      "id": 9,
+      "numero": 9,
+      "tipo": "azul",
+      "categoria": "Riesgo Leve",
+      "situacion": "Un visitante ingresa sin protección respiratoria.",
+      "pregunta": "¿Qué protocolo aplica?",
+      "opciones": {
+        "A": "Permitir ingreso breve.",
+        "B": "Aplicar medidas de bioseguridad.",
+        "C": "Ignorar si no hay síntomas visibles."
+      },
+      "respuestaCorrecta": "B",
+      "consecuenciaCorrecta": "Obtienes protección leve.",
+      "consecuenciaIncorrecta": "Pierdes una bonificación."
+    },
+    {
+      "id": 10,
+      "numero": 10,
+      "tipo": "azul",
+      "categoria": "Riesgo Leve",
+      "situacion": "El historial médico presenta escritura ilegible.",
+      "pregunta": "¿Qué problema puede ocasionar?",
+      "opciones": {
+        "A": "Errores clínicos.",
+        "B": "Retraso en limpieza.",
+        "C": "Saturación administrativa."
+      },
+      "respuestaCorrecta": "A",
+      "consecuenciaCorrecta": "Avanzas 2 casillas.",
+      "consecuenciaIncorrecta": "Retrocedes 1 casilla."
+    },
+    {
+      "id": 11,
+      "numero": 11,
+      "tipo": "azul",
+      "categoria": "Riesgo Leve",
+      "situacion": "Paciente con brazalete deteriorado.",
+      "pregunta": "¿Cuál es el mayor riesgo?",
+      "opciones": {
+        "A": "Error de identificación.",
+        "B": "Retraso administrativo.",
+        "C": "Saturación de admisiones."
+      },
+      "respuestaCorrecta": "A",
+      "consecuenciaCorrecta": "Avanzas 1 casilla.",
+      "consecuenciaIncorrecta": "Retrocedes 1 casilla."
+    },
+    {
+      "id": 12,
+      "numero": 12,
+      "tipo": "azul",
+      "categoria": "Riesgo Leve",
+      "situacion": "Una bomba de infusión tiene batería baja.",
+      "pregunta": "¿Qué debe hacerse?",
+      "opciones": {
+        "A": "Reemplazar o conectar inmediatamente.",
+        "B": "Ignorar mientras funcione.",
+        "C": "Reducir velocidad de infusión."
+      },
+      "respuestaCorrecta": "A",
+      "consecuenciaCorrecta": "Obtienes protección leve.",
+      "consecuenciaIncorrecta": "Pierdes una ventaja."
+    },
+    {
+      "id": 13,
+      "numero": 13,
+      "tipo": "azul",
+      "categoria": "Riesgo Leve",
+      "situacion": "Un paciente alérgico no tiene señalización visible.",
+      "pregunta": "¿Qué riesgo aumenta?",
+      "opciones": {
+        "A": "Evento adverso farmacológico.",
+        "B": "Retraso de laboratorio.",
+        "C": "Error administrativo."
+      },
+      "respuestaCorrecta": "A",
+      "consecuenciaCorrecta": "Otro jugador retrocede 1 casilla.",
+      "consecuenciaIncorrecta": "Retrocedes 1 casilla."
+    },
+    {
+      "id": 14,
+      "numero": 14,
+      "tipo": "azul",
+      "categoria": "Riesgo Leve",
+      "situacion": "Se detecta derrame menor de fluido biológico.",
+      "pregunta": "¿Qué acción corresponde?",
+      "opciones": {
+        "A": "Aplicar protocolo de descontaminación.",
+        "B": "Cubrirlo temporalmente.",
+        "C": "Esperar al personal de limpieza."
+      },
+      "respuestaCorrecta": "A",
+      "consecuenciaCorrecta": "Avanzas 2 casillas.",
+      "consecuenciaIncorrecta": "Retrocedes 1 casilla."
+    },
+    {
+      "id": 15,
+      "numero": 15,
+      "tipo": "azul",
+      "categoria": "Riesgo Leve",
+      "situacion": "Un profesional omite higiene de manos.",
+      "pregunta": "¿Qué riesgo aumenta?",
+      "opciones": {
+        "A": "Infección asociada a la atención.",
+        "B": "Saturación clínica.",
+        "C": "Fallo administrativo."
+      },
+      "respuestaCorrecta": "A",
+      "consecuenciaCorrecta": "Obtienes inmunidad azul.",
+      "consecuenciaIncorrecta": "Pierdes tu próxima bonificación."
+    },
+    {
+      "id": 16,
+      "numero": 16,
+      "tipo": "azul",
+      "categoria": "Riesgo Leve",
+      "situacion": "Un paciente no comprende indicaciones postoperatorias.",
+      "pregunta": "¿Qué debe hacerse?",
+      "opciones": {
+        "A": "Reeducación clínica.",
+        "B": "Solicitar firma inmediata.",
+        "C": "Dar alta rápidamente."
+      },
+      "respuestaCorrecta": "A",
+      "consecuenciaCorrecta": "Avanzas 1 casilla.",
+      "consecuenciaIncorrecta": "Retrocedes 2 casillas."
+    },
+    {
+      "id": 17,
+      "numero": 17,
+      "tipo": "azul",
+      "categoria": "Riesgo Leve",
+      "situacion": "Se encuentra medicamento vencido en carro clínico.",
+      "pregunta": "¿Qué debe hacerse?",
+      "opciones": {
+        "A": "Retirarlo inmediatamente.",
+        "B": "Usarlo si el vencimiento es reciente.",
+        "C": "Separarlo para revisión futura."
+      },
+      "respuestaCorrecta": "A",
+      "consecuenciaCorrecta": "Otro jugador pierde protección.",
+      "consecuenciaIncorrecta": "Retrocedes 1 casilla."
+    },
+    {
+      "id": 18,
+      "numero": 18,
+      "tipo": "azul",
+      "categoria": "Riesgo Leve",
+      "situacion": "Paciente con riesgo de caída sin barandas elevadas.",
+      "pregunta": "¿Qué medida es correcta?",
+      "opciones": {
+        "A": "Activar protocolo preventivo.",
+        "B": "Supervisión ocasional.",
+        "C": "Informar únicamente al familiar."
+      },
+      "respuestaCorrecta": "A",
+      "consecuenciaCorrecta": "Avanzas 2 casillas.",
+      "consecuenciaIncorrecta": "Retrocedes 1 casilla."
+    },
+    {
+      "id": 19,
+      "numero": 19,
+      "tipo": "azul",
+      "categoria": "Riesgo Leve",
+      "situacion": "Un monitor muestra valores inconsistentes.",
+      "pregunta": "¿Qué debe hacerse?",
+      "opciones": {
+        "A": "Verificar funcionamiento y paciente.",
+        "B": "Reiniciar después.",
+        "C": "Ignorar temporalmente."
+      },
+      "respuestaCorrecta": "A",
+      "consecuenciaCorrecta": "Obtienes protección.",
+      "consecuenciaIncorrecta": "Pierdes una ventaja."
+    },
+    {
+      "id": 20,
+      "numero": 20,
+      "tipo": "azul",
+      "categoria": "Riesgo Leve",
+      "situacion": "Se detecta acceso no autorizado a historia clínica.",
+      "pregunta": "¿Qué principio se vulnera?",
+      "opciones": {
+        "A": "Confidencialidad.",
+        "B": "Productividad.",
+        "C": "Jerarquía institucional."
+      },
+      "respuestaCorrecta": "A",
+      "consecuenciaCorrecta": "Avanzas 1 casilla.",
+      "consecuenciaIncorrecta": "Retrocedes 1 casilla."
+    },
+    {
+      "id": 21,
+      "numero": 21,
+      "tipo": "azul",
+      "categoria": "Riesgo Leve",
+      "situacion": "Paciente sin evaluación nutricional inicial.",
+      "pregunta": "¿Cuál es el riesgo?",
+      "opciones": {
+        "A": "Riesgo de deterioro clínico.",
+        "B": "Demora administrativa.",
+        "C": "Saturación del equipo."
+      },
+      "respuestaCorrecta": "A",
+      "consecuenciaCorrecta": "Avanzas 1 casilla.",
+      "consecuenciaIncorrecta": "Retrocedes 1 casilla."
+    },
+    {
+      "id": 22,
+      "numero": 22,
+      "tipo": "azul",
+      "categoria": "Riesgo Leve",
+      "situacion": "Muestra clínica almacenada incorrectamente.",
+      "pregunta": "¿Qué puede ocurrir?",
+      "opciones": {
+        "A": "Alteración de resultados.",
+        "B": "Retraso de diagnóstico.",
+        "C": "Pérdida de datos administrativos."
+      },
+      "respuestaCorrecta": "A",
+      "consecuenciaCorrecta": "Obtienes inmunidad azul.",
+      "consecuenciaIncorrecta": "Pierdes una ventaja."
+    },
+    {
+      "id": 23,
+      "numero": 23,
+      "tipo": "azul",
+      "categoria": "Riesgo Leve",
+      "situacion": "Se reutiliza material desechable.",
+      "pregunta": "¿Qué riesgo aumenta?",
+      "opciones": {
+        "A": "Riesgo infeccioso.",
+        "B": "Gastos administrativos.",
+        "C": "Retraso de procedimientos."
+      },
+      "respuestaCorrecta": "A",
+      "consecuenciaCorrecta": "Otro jugador retrocede 1 casilla.",
+      "consecuenciaIncorrecta": "Retrocedes 2 casillas."
+    },
+    {
+      "id": 24,
+      "numero": 24,
+      "tipo": "azul",
+      "categoria": "Riesgo Leve",
+      "situacion": "Paciente con dolor torácico sin reevaluación.",
+      "pregunta": "¿Qué puede ocurrir?",
+      "opciones": {
+        "A": "Posible deterioro no detectado.",
+        "B": "Estrés administrativo.",
+        "C": "Saturación de servicios."
+      },
+      "respuestaCorrecta": "A",
+      "consecuenciaCorrecta": "Avanzas 2 casillas.",
+      "consecuenciaIncorrecta": "Retrocedes 1 casilla."
+    },
+    {
+      "id": 25,
+      "numero": 25,
+      "tipo": "azul",
+      "categoria": "Riesgo Leve",
+      "situacion": "Familiar manipula dispositivos médicos.",
+      "pregunta": "¿Qué riesgo existe?",
+      "opciones": {
+        "A": "Riesgo de alteración terapéutica.",
+        "B": "Conflicto administrativo.",
+        "C": "Sobrecarga de personal."
+      },
+      "respuestaCorrecta": "A",
+      "consecuenciaCorrecta": "Obtienes protección leve.",
+      "consecuenciaIncorrecta": "Pierdes una bonificación."
+    },
+    {
+      "id": 26,
+      "numero": 26,
+      "tipo": "azul",
+      "categoria": "Riesgo Leve",
+      "situacion": "Medicamento LASA almacenado incorrectamente.",
+      "pregunta": "¿Qué riesgo aumenta?",
+      "opciones": {
+        "A": "Riesgo de confusión farmacológica.",
+        "B": "Retraso de distribución.",
+        "C": "Pérdida de inventario."
+      },
+      "respuestaCorrecta": "A",
+      "consecuenciaCorrecta": "Avanzas 1 casilla.",
+      "consecuenciaIncorrecta": "Retrocedes 1 casilla."
+    },
+    {
+      "id": 27,
+      "numero": 27,
+      "tipo": "azul",
+      "categoria": "Riesgo Leve",
+      "situacion": "Paciente con signos vitales alterados sin reporte.",
+      "pregunta": "¿Qué puede pasar?",
+      "opciones": {
+        "A": "Retraso en intervención clínica.",
+        "B": "Confusión de datos.",
+        "C": "Pérdida de expediente."
+      },
+      "respuestaCorrecta": "A",
+      "consecuenciaCorrecta": "Otro jugador pierde protección.",
+      "consecuenciaIncorrecta": "Retrocedes 2 casillas."
+    },
+    {
+      "id": 28,
+      "numero": 28,
+      "tipo": "azul",
+      "categoria": "Riesgo Leve",
+      "situacion": "Equipo de aspiración sin revisión previa.",
+      "pregunta": "¿Qué riesgo existe?",
+      "opciones": {
+        "A": "Riesgo operativo durante emergencia.",
+        "B": "Retraso de procedimiento.",
+        "C": "Costo administrativo."
+      },
+      "respuestaCorrecta": "A",
+      "consecuenciaCorrecta": "Avanzas 2 casillas.",
+      "consecuenciaIncorrecta": "Pierdes una ventaja."
+    },
+    {
+      "id": 29,
+      "numero": 29,
+      "tipo": "azul",
+      "categoria": "Riesgo Leve",
+      "situacion": "Paciente sin consentimiento informado completo.",
+      "pregunta": "¿Qué se vulnera?",
+      "opciones": {
+        "A": "Vulneración ética y legal.",
+        "B": "Administración deficiente.",
+        "C": "Organización interna."
+      },
+      "respuestaCorrecta": "A",
+      "consecuenciaCorrecta": "Obtienes inmunidad azul.",
+      "consecuenciaIncorrecta": "Retrocedes 1 casilla."
+    },
+    {
+      "id": 30,
+      "numero": 30,
+      "tipo": "azul",
+      "categoria": "Riesgo Leve",
+      "situacion": "Error menor en dosificación detectado antes de administrar.",
+      "pregunta": "¿Qué debe hacerse?",
+      "opciones": {
+        "A": "Aplicar verificación y corregir.",
+        "B": "Ignorar si es mínimo.",
+        "C": "Consultar después."
+      },
+      "respuestaCorrecta": "A",
+      "consecuenciaCorrecta": "Avanzas 1 casilla.",
+      "consecuenciaIncorrecta": "Retrocedes 2 casillas."
+    },
+    {
+      "id": 31,
+      "numero": 31,
+      "tipo": "azul",
+      "categoria": "Riesgo Leve",
+      "situacion": "Paciente pediátrico sin brazalete visible.",
+      "pregunta": "¿Cuál es el riesgo?",
+      "opciones": {
+        "A": "Riesgo de identificación errónea.",
+        "B": "Retraso de ingreso.",
+        "C": "Falta de documentación."
+      },
+      "respuestaCorrecta": "A",
+      "consecuenciaCorrecta": "Avanzas 1 casilla.",
+      "consecuenciaIncorrecta": "Retrocedes 1 casilla."
+    },
+    {
+      "id": 32,
+      "numero": 32,
+      "tipo": "azul",
+      "categoria": "Riesgo Leve",
+      "situacion": "Un área clínica no cuenta con señalización húmeda.",
+      "pregunta": "¿Qué riesgo existe?",
+      "opciones": {
+        "A": "Riesgo de accidentes.",
+        "B": "Falta de organización.",
+        "C": "Incumplimiento administrativo."
+      },
+      "respuestaCorrecta": "A",
+      "consecuenciaCorrecta": "Otro jugador retrocede 1 casilla.",
+      "consecuenciaIncorrecta": "Retrocedes 1 casilla."
+    },
+    {
+      "id": 33,
+      "numero": 33,
+      "tipo": "azul",
+      "categoria": "Riesgo Leve",
+      "situacion": "Se omite educación sobre medicamentos al alta.",
+      "pregunta": "¿Qué riesgo aumenta?",
+      "opciones": {
+        "A": "Riesgo de uso incorrecto.",
+        "B": "Readmisión innecesaria.",
+        "C": "Fallos administrativos."
+      },
+      "respuestaCorrecta": "A",
+      "consecuenciaCorrecta": "Obtienes protección leve.",
+      "consecuenciaIncorrecta": "Pierdes una bonificación."
+    },
+    {
+      "id": 34,
+      "numero": 34,
+      "tipo": "azul",
+      "categoria": "Riesgo Leve",
+      "situacion": "Paciente en ayuno recibe alimentación accidental.",
+      "pregunta": "¿Qué puede ocurrir?",
+      "opciones": {
+        "A": "Riesgo de complicaciones clínicas.",
+        "B": "Retraso de procedimiento.",
+        "C": "Error administrativo."
+      },
+      "respuestaCorrecta": "A",
+      "consecuenciaCorrecta": "Avanzas 2 casillas.",
+      "consecuenciaIncorrecta": "Retrocedes 1 casilla."
+    },
+    {
+      "id": 35,
+      "numero": 35,
+      "tipo": "azul",
+      "categoria": "Riesgo Leve",
+      "situacion": "Mala disposición de residuos biosanitarios.",
+      "pregunta": "¿Qué riesgo existe?",
+      "opciones": {
+        "A": "Riesgo biológico.",
+        "B": "Contaminación ambiental.",
+        "C": "Incumplimiento normativo."
+      },
+      "respuestaCorrecta": "A",
+      "consecuenciaCorrecta": "Otro jugador pierde protección.",
+      "consecuenciaIncorrecta": "Retrocedes 2 casillas."
+    },
+    {
+      "id": 36,
+      "numero": 36,
+      "tipo": "azul",
+      "categoria": "Riesgo Leve",
+      "situacion": "Un paciente presenta ansiedad extrema antes de cirugía.",
+      "pregunta": "¿Qué debe hacerse?",
+      "opciones": {
+        "A": "Brindar acompañamiento e información.",
+        "B": "Administrar sedativo inmediato.",
+        "C": "Postergar intervención."
+      },
+      "respuestaCorrecta": "A",
+      "consecuenciaCorrecta": "Avanzas 1 casilla.",
+      "consecuenciaIncorrecta": "Pierdes una ventaja."
+    },
+    {
+      "id": 37,
+      "numero": 37,
+      "tipo": "azul",
+      "categoria": "Riesgo Leve",
+      "situacion": "No se verifica permeabilidad de vía venosa.",
+      "pregunta": "¿Qué riesgo existe?",
+      "opciones": {
+        "A": "Riesgo de infiltración.",
+        "B": "Retraso terapéutico.",
+        "C": "Complicación vascular."
+      },
+      "respuestaCorrecta": "A",
+      "consecuenciaCorrecta": "Obtienes inmunidad azul.",
+      "consecuenciaIncorrecta": "Retrocedes 1 casilla."
+    },
+    {
+      "id": 38,
+      "numero": 38,
+      "tipo": "azul",
+      "categoria": "Riesgo Leve",
+      "situacion": "Paciente con movilidad reducida sin asistencia.",
+      "pregunta": "¿Cuál es el riesgo?",
+      "opciones": {
+        "A": "Riesgo de caída.",
+        "B": "Retraso de rehabilitación.",
+        "C": "Complicación musculoesquelética."
+      },
+      "respuestaCorrecta": "A",
+      "consecuenciaCorrecta": "Avanzas 2 casillas.",
+      "consecuenciaIncorrecta": "Retrocedes 1 casilla."
+    },
+    {
+      "id": 39,
+      "numero": 39,
+      "tipo": "azul",
+      "categoria": "Riesgo Leve",
+      "situacion": "No se realiza pausa de seguridad antes de procedimiento.",
+      "pregunta": "¿Qué riesgo existe?",
+      "opciones": {
+        "A": "Riesgo de error clínico.",
+        "B": "Retraso de operación.",
+        "C": "Complicación administrativa."
+      },
+      "respuestaCorrecta": "A",
+      "consecuenciaCorrecta": "Otro jugador retrocede 1 casilla.",
+      "consecuenciaIncorrecta": "Retrocedes 2 casillas."
+    },
+    {
+      "id": 40,
+      "numero": 40,
+      "tipo": "azul",
+      "categoria": "Riesgo Leve",
+      "situacion": "Se detecta inconsistencias menores en prescripción médica.",
+      "pregunta": "¿Qué debe hacerse?",
+      "opciones": {
+        "A": "Verificar con el médico tratante.",
+        "B": "Administrar según interpretación.",
+        "C": "Esperar al siguiente turno clínico."
+      },
+      "respuestaCorrecta": "A",
+      "consecuenciaCorrecta": "Avanzas 3 casillas.",
+      "consecuenciaIncorrecta": "Retrocedes 2 casillas."
+    }
+  ],
+  "cartasRojas": [
+    {
+      "id": 41,
+      "numero": 1,
+      "tipo": "roja",
+      "categoria": "Riesgo Crítico",
+      "situacion": "Un paciente recibe sangre incompatible por error de identificación.",
+      "pregunta": "¿Qué barrera falló?",
+      "opciones": {
+        "A": "Verificación clínica de identidad.",
+        "B": "Registro administrativo.",
+        "C": "Distribución farmacéutica."
+      },
+      "respuestaCorrecta": "A",
+      "consecuenciaCorrecta": "No ocurre nada.",
+      "consecuenciaIncorrecta": "Retrocedes 5 casillas."
+    },
+    {
+      "id": 42,
+      "numero": 2,
+      "tipo": "roja",
+      "categoria": "Riesgo Crítico",
+      "situacion": "Una cirugía inicia sin confirmar el sitio operatorio.",
+      "pregunta": "¿Qué protocolo se omitió?",
+      "opciones": {
+        "A": "Lista de verificación quirúrgica.",
+        "B": "Gestión documental.",
+        "C": "Programación de quirófanos."
+      },
+      "respuestaCorrecta": "A",
+      "consecuenciaCorrecta": "No ocurre nada.",
+      "consecuenciaIncorrecta": "Pierdes 2 turnos."
+    },
+    {
+      "id": 43,
+      "numero": 3,
+      "tipo": "roja",
+      "categoria": "Riesgo Crítico",
+      "situacion": "Un desfibrilador no funciona durante una reanimación.",
+      "pregunta": "¿Qué falló?",
+      "opciones": {
+        "A": "Mantenimiento preventivo biomédico.",
+        "B": "Gestión de archivo clínico.",
+        "C": "Limpieza hospitalaria."
+      },
+      "respuestaCorrecta": "A",
+      "consecuenciaCorrecta": "No ocurre nada.",
+      "consecuenciaIncorrecta": "Retrocedes al inicio."
+    },
+    {
+      "id": 44,
+      "numero": 4,
+      "tipo": "roja",
+      "categoria": "Riesgo Crítico",
+      "situacion": "Se administra potasio concentrado sin dilución.",
+      "pregunta": "¿Qué riesgo existe?",
+      "opciones": {
+        "A": "Arritmia severa.",
+        "B": "Cefalea transitoria.",
+        "C": "Hipotermia leve."
+      },
+      "respuestaCorrecta": "A",
+      "consecuenciaCorrecta": "No ocurre nada.",
+      "consecuenciaIncorrecta": "Retrocedes 6 casillas."
+    },
+    {
+      "id": 45,
+      "numero": 5,
+      "tipo": "roja",
+      "categoria": "Riesgo Crítico",
+      "situacion": "Una bomba de infusión se programa con dosis diez veces superior.",
+      "pregunta": "¿Qué medida pudo evitarlo?",
+      "opciones": {
+        "A": "Doble verificación clínica.",
+        "B": "Revisión administrativa.",
+        "C": "Cambio de turno rápido."
+      },
+      "respuestaCorrecta": "A",
+      "consecuenciaCorrecta": "No ocurre nada.",
+      "consecuenciaIncorrecta": "Pierdes 3 turnos."
+    },
+    {
+      "id": 46,
+      "numero": 6,
+      "tipo": "roja",
+      "categoria": "Riesgo Crítico",
+      "situacion": "Un paciente anticoagulado recibe doble dosis.",
+      "pregunta": "¿Qué complicación puede presentarse?",
+      "opciones": {
+        "A": "Hemorragia severa.",
+        "B": "Hipotensión leve.",
+        "C": "Ansiedad transitoria."
+      },
+      "respuestaCorrecta": "A",
+      "consecuenciaCorrecta": "No ocurre nada.",
+      "consecuenciaIncorrecta": "Retrocedes 5 casillas."
+    },
+    {
+      "id": 47,
+      "numero": 7,
+      "tipo": "roja",
+      "categoria": "Riesgo Crítico",
+      "situacion": "Una alarma de ventilador es ignorada repetidamente.",
+      "pregunta": "¿Qué puede ocurrir?",
+      "opciones": {
+        "A": "Deterioro respiratorio crítico.",
+        "B": "Saturación de enfermería.",
+        "C": "Fatiga administrativa."
+      },
+      "respuestaCorrecta": "A",
+      "consecuenciaCorrecta": "No ocurre nada.",
+      "consecuenciaIncorrecta": "Pierdes 2 turnos."
+    },
+    {
+      "id": 48,
+      "numero": 8,
+      "tipo": "roja",
+      "categoria": "Riesgo Crítico",
+      "situacion": "Se reutiliza material quirúrgico sin esterilización.",
+      "pregunta": "¿Qué riesgo aumenta?",
+      "opciones": {
+        "A": "Infección asociada a la atención.",
+        "B": "Saturación de inventario.",
+        "C": "Retraso administrativo."
+      },
+      "respuestaCorrecta": "A",
+      "consecuenciaCorrecta": "No ocurre nada.",
+      "consecuenciaIncorrecta": "Retrocedes 4 casillas."
+    },
+    {
+      "id": 49,
+      "numero": 9,
+      "tipo": "roja",
+      "categoria": "Riesgo Crítico",
+      "situacion": "Un recién nacido es entregado a la madre equivocada.",
+      "pregunta": "¿Qué falló?",
+      "opciones": {
+        "A": "Verificación materno-neonatal.",
+        "B": "Gestión documental.",
+        "C": "Distribución farmacológica."
+      },
+      "respuestaCorrecta": "A",
+      "consecuenciaCorrecta": "No ocurre nada.",
+      "consecuenciaIncorrecta": "Retrocedes al inicio."
+    },
+    {
+      "id": 50,
+      "numero": 10,
+      "tipo": "roja",
+      "categoria": "Riesgo Crítico",
+      "situacion": "Se administra nutrición enteral por vía intravenosa.",
+      "pregunta": "¿Qué tipo de evento es?",
+      "opciones": {
+        "A": "Error de conexión clínica.",
+        "B": "Retraso terapéutico.",
+        "C": "Error documental."
+      },
+      "respuestaCorrecta": "A",
+      "consecuenciaCorrecta": "No ocurre nada.",
+      "consecuenciaIncorrecta": "Retrocedes 8 casillas."
+    },
+    {
+      "id": 51,
+      "numero": 11,
+      "tipo": "roja",
+      "categoria": "Riesgo Crítico",
+      "situacion": "Paciente recibe medicamento alérgeno registrado.",
+      "pregunta": "¿Qué falló?",
+      "opciones": {
+        "A": "Falla de verificación clínica.",
+        "B": "Error administrativo.",
+        "C": "Falla de comunicación."
+      },
+      "respuestaCorrecta": "A",
+      "consecuenciaCorrecta": "No ocurre nada.",
+      "consecuenciaIncorrecta": "Retrocedes 5 casillas."
+    },
+    {
+      "id": 52,
+      "numero": 12,
+      "tipo": "roja",
+      "categoria": "Riesgo Crítico",
+      "situacion": "No se detecta hipoxia por monitor desconectado.",
+      "pregunta": "¿Qué falló?",
+      "opciones": {
+        "A": "Falla de supervisión clínica.",
+        "B": "Error técnico.",
+        "C": "Falta de capacitación."
+      },
+      "respuestaCorrecta": "A",
+      "consecuenciaCorrecta": "No ocurre nada.",
+      "consecuenciaIncorrecta": "Pierdes 2 turnos."
+    },
+    {
+      "id": 53,
+      "numero": 13,
+      "tipo": "roja",
+      "categoria": "Riesgo Crítico",
+      "situacion": "Un paciente recibe sedación excesiva.",
+      "pregunta": "¿Qué falló?",
+      "opciones": {
+        "A": "Error de cálculo farmacológico.",
+        "B": "Retraso de intervención.",
+        "C": "Falla de comunicación."
+      },
+      "respuestaCorrecta": "A",
+      "consecuenciaCorrecta": "No ocurre nada.",
+      "consecuenciaIncorrecta": "Retrocedes 6 casillas."
+    },
+    {
+      "id": 54,
+      "numero": 14,
+      "tipo": "roja",
+      "categoria": "Riesgo Crítico",
+      "situacion": "Se omite protocolo de aislamiento.",
+      "pregunta": "¿Qué riesgo existe?",
+      "opciones": {
+        "A": "Riesgo de brote infeccioso.",
+        "B": "Retraso de procedimiento.",
+        "C": "Error administrativo."
+      },
+      "respuestaCorrecta": "A",
+      "consecuenciaCorrecta": "No ocurre nada.",
+      "consecuenciaIncorrecta": "Retrocedes 4 casillas."
+    },
+    {
+      "id": 55,
+      "numero": 15,
+      "tipo": "roja",
+      "categoria": "Riesgo Crítico",
+      "situacion": "Un extintor no funciona durante incendio clínico.",
+      "pregunta": "¿Qué falló?",
+      "opciones": {
+        "A": "Falta de mantenimiento preventivo.",
+        "B": "Error de uso.",
+        "C": "Falta de capacitación."
+      },
+      "respuestaCorrecta": "A",
+      "consecuenciaCorrecta": "No ocurre nada.",
+      "consecuenciaIncorrecta": "Pierdes 3 turnos."
+    },
+    {
+      "id": 56,
+      "numero": 16,
+      "tipo": "roja",
+      "categoria": "Riesgo Crítico",
+      "situacion": "Paciente crítico es trasladado sin oxígeno.",
+      "pregunta": "¿Qué falló?",
+      "opciones": {
+        "A": "Falla en preparación del traslado.",
+        "B": "Error de comunicación.",
+        "C": "Falta de recursos."
+      },
+      "respuestaCorrecta": "A",
+      "consecuenciaCorrecta": "No ocurre nada.",
+      "consecuenciaIncorrecta": "Retrocedes 5 casillas."
+    },
+    {
+      "id": 57,
+      "numero": 17,
+      "tipo": "roja",
+      "categoria": "Riesgo Crítico",
+      "situacion": "Se administra medicamento al paciente equivocado.",
+      "pregunta": "¿Qué falló?",
+      "opciones": {
+        "A": "Error de identificación.",
+        "B": "Error administrativo.",
+        "C": "Falta de verificación."
+      },
+      "respuestaCorrecta": "A",
+      "consecuenciaCorrecta": "No ocurre nada.",
+      "consecuenciaIncorrecta": "Retrocedes al inicio."
+    },
+    {
+      "id": 58,
+      "numero": 18,
+      "tipo": "roja",
+      "categoria": "Riesgo Crítico",
+      "situacion": "No se realiza pausa quirúrgica.",
+      "pregunta": "¿Qué falló?",
+      "opciones": {
+        "A": "Omisión de barrera de seguridad.",
+        "B": "Error de comunicación.",
+        "C": "Falta de tiempo."
+      },
+      "respuestaCorrecta": "A",
+      "consecuenciaCorrecta": "No ocurre nada.",
+      "consecuenciaIncorrecta": "Pierdes 2 turnos."
+    },
+    {
+      "id": 59,
+      "numero": 19,
+      "tipo": "roja",
+      "categoria": "Riesgo Crítico",
+      "situacion": "Un ventilador es conectado incorrectamente.",
+      "pregunta": "¿Qué riesgo existe?",
+      "opciones": {
+        "A": "Riesgo respiratorio severo.",
+        "B": "Retraso de intervención.",
+        "C": "Error administrativo."
+      },
+      "respuestaCorrecta": "A",
+      "consecuenciaCorrecta": "No ocurre nada.",
+      "consecuenciaIncorrecta": "Retrocedes 6 casillas."
+    },
+    {
+      "id": 60,
+      "numero": 20,
+      "tipo": "roja",
+      "categoria": "Riesgo Crítico",
+      "situacion": "Paciente convulsiona por dosis errónea.",
+      "pregunta": "¿Qué tipo de error?",
+      "opciones": {
+        "A": "Error farmacológico crítico.",
+        "B": "Error de comunicación.",
+        "C": "Falta de monitoreo."
+      },
+      "respuestaCorrecta": "A",
+      "consecuenciaCorrecta": "No ocurre nada.",
+      "consecuenciaIncorrecta": "Retrocedes 7 casillas."
+    },
+    {
+      "id": 61,
+      "numero": 21,
+      "tipo": "roja",
+      "categoria": "Riesgo Crítico",
+      "situacion": "Paciente psiquiátrico sin vigilancia adecuada.",
+      "pregunta": "¿Qué riesgo existe?",
+      "opciones": {
+        "A": "Riesgo de autolesión.",
+        "B": "Retraso administrativo.",
+        "C": "Error de procedimiento."
+      },
+      "respuestaCorrecta": "A",
+      "consecuenciaCorrecta": "No ocurre nada.",
+      "consecuenciaIncorrecta": "Pierdes 3 turnos."
+    },
+    {
+      "id": 62,
+      "numero": 22,
+      "tipo": "roja",
+      "categoria": "Riesgo Crítico",
+      "situacion": "Error en compatibilidad sanguínea.",
+      "pregunta": "¿Qué falló?",
+      "opciones": {
+        "A": "Verificación transfusional insuficiente.",
+        "B": "Error administrativo.",
+        "C": "Falta de recursos."
+      },
+      "respuestaCorrecta": "A",
+      "consecuenciaCorrecta": "No ocurre nada.",
+      "consecuenciaIncorrecta": "Retrocedes al inicio."
+    },
+    {
+      "id": 63,
+      "numero": 23,
+      "tipo": "roja",
+      "categoria": "Riesgo Crítico",
+      "situacion": "No se detecta sepsis temprana.",
+      "pregunta": "¿Qué falló?",
+      "opciones": {
+        "A": "Falla en monitoreo clínico.",
+        "B": "Error de diagnóstico.",
+        "C": "Falta de capacitación."
+      },
+      "respuestaCorrecta": "A",
+      "consecuenciaCorrecta": "No ocurre nada.",
+      "consecuenciaIncorrecta": "Retrocedes 5 casillas."
+    },
+    {
+      "id": 64,
+      "numero": 24,
+      "tipo": "roja",
+      "categoria": "Riesgo Crítico",
+      "situacion": "Paciente intubado sin fijación adecuada.",
+      "pregunta": "¿Qué riesgo existe?",
+      "opciones": {
+        "A": "Riesgo de extubación accidental.",
+        "B": "Retraso de intervención.",
+        "C": "Error administrativo."
+      },
+      "respuestaCorrecta": "A",
+      "consecuenciaCorrecta": "No ocurre nada.",
+      "consecuenciaIncorrecta": "Pierdes 2 turnos."
+    },
+    {
+      "id": 65,
+      "numero": 25,
+      "tipo": "roja",
+      "categoria": "Riesgo Crítico",
+      "situacion": "Error grave en velocidad de infusión.",
+      "pregunta": "¿Qué falló?",
+      "opciones": {
+        "A": "Configuración incorrecta de bomba.",
+        "B": "Error de comunicación.",
+        "C": "Falta de monitoreo."
+      },
+      "respuestaCorrecta": "A",
+      "consecuenciaCorrecta": "No ocurre nada.",
+      "consecuenciaIncorrecta": "Retrocedes 6 casillas."
+    },
+    {
+      "id": 66,
+      "numero": 26,
+      "tipo": "roja",
+      "categoria": "Riesgo Crítico",
+      "situacion": "No se activa código azul oportunamente.",
+      "pregunta": "¿Qué falló?",
+      "opciones": {
+        "A": "Retraso crítico de respuesta.",
+        "B": "Error de comunicación.",
+        "C": "Falta de personal."
+      },
+      "respuestaCorrecta": "A",
+      "consecuenciaCorrecta": "No ocurre nada.",
+      "consecuenciaIncorrecta": "Retrocedes 7 casillas."
+    },
+    {
+      "id": 67,
+      "numero": 27,
+      "tipo": "roja",
+      "categoria": "Riesgo Crítico",
+      "situacion": "Un paciente cae desde la camilla.",
+      "pregunta": "¿Qué falló?",
+      "opciones": {
+        "A": "Falla en medidas preventivas.",
+        "B": "Error de procedimiento.",
+        "C": "Falta de supervisión."
+      },
+      "respuestaCorrecta": "A",
+      "consecuenciaCorrecta": "No ocurre nada.",
+      "consecuenciaIncorrecta": "Pierdes 2 turnos."
+    },
+    {
+      "id": 68,
+      "numero": 28,
+      "tipo": "roja",
+      "categoria": "Riesgo Crítico",
+      "situacion": "Se administra insulina equivocada.",
+      "pregunta": "¿Qué falló?",
+      "opciones": {
+        "A": "Confusión farmacológica LASA.",
+        "B": "Error de comunicación.",
+        "C": "Falta de verificación."
+      },
+      "respuestaCorrecta": "A",
+      "consecuenciaCorrecta": "No ocurre nada.",
+      "consecuenciaIncorrecta": "Retrocedes 5 casillas."
+    },
+    {
+      "id": 69,
+      "numero": 29,
+      "tipo": "roja",
+      "categoria": "Riesgo Crítico",
+      "situacion": "No se detecta deterioro neurológico.",
+      "pregunta": "¿Qué falló?",
+      "opciones": {
+        "A": "Omisión de valoración continua.",
+        "B": "Error de diagnóstico.",
+        "C": "Falta de monitoreo."
+      },
+      "respuestaCorrecta": "A",
+      "consecuenciaCorrecta": "No ocurre nada.",
+      "consecuenciaIncorrecta": "Retrocedes 6 casillas."
+    },
+    {
+      "id": 70,
+      "numero": 30,
+      "tipo": "roja",
+      "categoria": "Riesgo Crítico",
+      "situacion": "Paciente recibe descarga eléctrica por equipo defectuoso.",
+      "pregunta": "¿Qué falló?",
+      "opciones": {
+        "A": "Falla biomédica.",
+        "B": "Error de uso.",
+        "C": "Falta de mantenimiento."
+      },
+      "respuestaCorrecta": "A",
+      "consecuenciaCorrecta": "No ocurre nada.",
+      "consecuenciaIncorrecta": "Retrocedes al inicio."
+    },
+    {
+      "id": 71,
+      "numero": 31,
+      "tipo": "roja",
+      "categoria": "Riesgo Crítico",
+      "situacion": "Oxígeno conectado a salida incorrecta.",
+      "pregunta": "¿Qué tipo de error?",
+      "opciones": {
+        "A": "Error técnico crítico.",
+        "B": "Error de comunicación.",
+        "C": "Falta de capacitación."
+      },
+      "respuestaCorrecta": "A",
+      "consecuenciaCorrecta": "No ocurre nada.",
+      "consecuenciaIncorrecta": "Retrocedes 5 casillas."
+    },
+    {
+      "id": 72,
+      "numero": 32,
+      "tipo": "roja",
+      "categoria": "Riesgo Crítico",
+      "situacion": "No se administra antibiótico prequirúrgico.",
+      "pregunta": "¿Qué riesgo existe?",
+      "opciones": {
+        "A": "Riesgo elevado de infección.",
+        "B": "Retraso de procedimiento.",
+        "C": "Error administrativo."
+      },
+      "respuestaCorrecta": "A",
+      "consecuenciaCorrecta": "No ocurre nada.",
+      "consecuenciaIncorrecta": "Pierdes 3 turnos."
+    },
+    {
+      "id": 73,
+      "numero": 33,
+      "tipo": "roja",
+      "categoria": "Riesgo Crítico",
+      "situacion": "Paciente con trombosis no recibe profilaxis.",
+      "pregunta": "¿Qué falló?",
+      "opciones": {
+        "A": "Omisión preventiva clínica.",
+        "B": "Error de diagnóstico.",
+        "C": "Falta de recursos."
+      },
+      "respuestaCorrecta": "A",
+      "consecuenciaCorrecta": "No ocurre nada.",
+      "consecuenciaIncorrecta": "Retrocedes 6 casillas."
+    },
+    {
+      "id": 74,
+      "numero": 34,
+      "tipo": "roja",
+      "categoria": "Riesgo Crítico",
+      "situacion": "Se ignora reacción adversa inicial.",
+      "pregunta": "¿Qué riesgo existe?",
+      "opciones": {
+        "A": "Riesgo de choque anafiláctico.",
+        "B": "Retraso de intervención.",
+        "C": "Error administrativo."
+      },
+      "respuestaCorrecta": "A",
+      "consecuenciaCorrecta": "No ocurre nada.",
+      "consecuenciaIncorrecta": "Retrocedes 7 casillas."
+    },
+    {
+      "id": 75,
+      "numero": 35,
+      "tipo": "roja",
+      "categoria": "Riesgo Crítico",
+      "situacion": "Material contaminado entra a cirugía.",
+      "pregunta": "¿Qué falló?",
+      "opciones": {
+        "A": "Falla de esterilidad.",
+        "B": "Error de procedimiento.",
+        "C": "Falta de supervisión."
+      },
+      "respuestaCorrecta": "A",
+      "consecuenciaCorrecta": "No ocurre nada.",
+      "consecuenciaIncorrecta": "Pierdes 2 turnos."
+    },
+    {
+      "id": 76,
+      "numero": 36,
+      "tipo": "roja",
+      "categoria": "Riesgo Crítico",
+      "situacion": "Paciente recibe procedimiento incorrecto.",
+      "pregunta": "¿Qué falló?",
+      "opciones": {
+        "A": "Falla de validación clínica.",
+        "B": "Error de comunicación.",
+        "C": "Falta de verificación."
+      },
+      "respuestaCorrecta": "A",
+      "consecuenciaCorrecta": "No ocurre nada.",
+      "consecuenciaIncorrecta": "Retrocedes al inicio."
+    },
+    {
+      "id": 77,
+      "numero": 37,
+      "tipo": "roja",
+      "categoria": "Riesgo Crítico",
+      "situacion": "No se monitorea paciente sedado.",
+      "pregunta": "¿Qué riesgo existe?",
+      "opciones": {
+        "A": "Riesgo de depresión respiratoria.",
+        "B": "Retraso de intervención.",
+        "C": "Error administrativo."
+      },
+      "respuestaCorrecta": "A",
+      "consecuenciaCorrecta": "No ocurre nada.",
+      "consecuenciaIncorrecta": "Retrocedes 5 casillas."
+    },
+    {
+      "id": 78,
+      "numero": 38,
+      "tipo": "roja",
+      "categoria": "Riesgo Crítico",
+      "situacion": "Se pierde acceso venoso en emergencia.",
+      "pregunta": "¿Qué falló?",
+      "opciones": {
+        "A": "Falta de aseguramiento adecuado.",
+        "B": "Error de procedimiento.",
+        "C": "Falta de supervisión."
+      },
+      "respuestaCorrecta": "A",
+      "consecuenciaCorrecta": "No ocurre nada.",
+      "consecuenciaIncorrecta": "Pierdes 2 turnos."
+    },
+    {
+      "id": 79,
+      "numero": 39,
+      "tipo": "roja",
+      "categoria": "Riesgo Crítico",
+      "situacion": "Paciente crítico no recibe triage adecuado.",
+      "pregunta": "¿Qué falló?",
+      "opciones": {
+        "A": "Priorización clínica incorrecta.",
+        "B": "Error de comunicación.",
+        "C": "Falta de personal."
+      },
+      "respuestaCorrecta": "A",
+      "consecuenciaCorrecta": "No ocurre nada.",
+      "consecuenciaIncorrecta": "Retrocedes 6 casillas."
+    },
+    {
+      "id": 80,
+      "numero": 40,
+      "tipo": "roja",
+      "categoria": "Riesgo Crítico",
+      "situacion": "Un paciente recibe dosis letal debido a interpretación incorrecta de prescripción.",
+      "pregunta": "¿Qué medida pudo prevenirlo?",
+      "opciones": {
+        "A": "Validación farmacológica y doble verificación.",
+        "B": "Mayor velocidad administrativa.",
+        "C": "Cambio de personal clínico."
+      },
+      "respuestaCorrecta": "A",
+      "consecuenciaCorrecta": "No ocurre nada.",
+      "consecuenciaIncorrecta": "Retrocedes al inicio y pierdes 2 turnos."
+    }
+  ]
+}

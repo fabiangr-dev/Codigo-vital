@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Production
+build/
+dist/
+
+# Development
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Electron
+out/
+*.asar
+
+# npm
+.npm
+*.log
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Misc
+.cache/
+*.bak

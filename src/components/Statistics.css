@@ -1,0 +1,259 @@
+.statistics-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background: white;
+  overflow: hidden;
+}
+
+.stats-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.stats-header h1 {
+  font-size: 2rem;
+  margin: 0;
+  text-align: center;
+  flex: 1;
+}
+
+.header-spacer {
+  width: 100px;
+}
+
+.back-btn {
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 600;
+}
+
+.back-btn:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: translateX(-5px);
+}
+
+.stats-content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  overflow-y: auto;
+  padding: 40px;
+  gap: 30px;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.stat-card {
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  border-radius: 15px;
+  padding: 30px 20px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.stat-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.stat-card.large {
+  grid-column: 1 / -1;
+  padding: 40px 30px;
+}
+
+.stat-value {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #667eea;
+  margin-bottom: 10px;
+}
+
+.stat-label {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.stat-subtext {
+  font-size: 0.85rem;
+  color: #999;
+}
+
+.stat-bar {
+  height: 8px;
+  background: #e5e7eb;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 15px;
+}
+
+.stat-bar-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+  transition: width 0.5s ease;
+}
+
+.type-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.type-stat-card {
+  border-radius: 15px;
+  padding: 25px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  border-left: 5px solid;
+}
+
+.type-stat-card.blue {
+  background: #eff6ff;
+  border-left-color: #3b82f6;
+}
+
+.type-stat-card.red {
+  background: #fef2f2;
+  border-left-color: #ef4444;
+}
+
+.type-stat-card h3 {
+  margin: 0 0 15px 0;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.type-stat-content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.type-stat-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background: white;
+  border-radius: 8px;
+}
+
+.type-stat-item span {
+  color: #666;
+  font-size: 0.95rem;
+}
+
+.type-stat-item strong {
+  font-weight: 700;
+  color: #667eea;
+  font-size: 1.1rem;
+}
+
+.attempts-section {
+  background: #f9fafb;
+  padding: 25px;
+  border-radius: 15px;
+  border-left: 4px solid #667eea;
+}
+
+.attempts-section h3 {
+  margin: 0 0 15px 0;
+  color: #333;
+  font-size: 1.1rem;
+}
+
+.attempts-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.attempt-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background: white;
+  border-radius: 8px;
+  border-left: 4px solid #fbbf24;
+}
+
+.attempt-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.attempt-carta {
+  font-weight: 600;
+  color: #667eea;
+}
+
+.attempt-text {
+  font-size: 0.9rem;
+  color: #999;
+}
+
+.attempt-count {
+  font-weight: 700;
+  color: #fbbf24;
+  font-size: 1rem;
+}
+
+.stats-actions {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #eee;
+}
+
+.action-btn {
+  padding: 12px 30px;
+  border-radius: 8px;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+}
+
+.action-btn.primary {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.action-btn.primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(102, 126, 234, 0.3);
+}
+
+.action-btn.secondary {
+  background: white;
+  color: #667eea;
+  border: 2px solid #667eea;
+}
+
+.action-btn.secondary:hover {
+  background: #f5f7fa;
+  transform: translateY(-2px);
+}
